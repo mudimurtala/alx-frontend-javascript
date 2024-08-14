@@ -178,3 +178,11 @@ npm install
 - **File**: `8-clean_set.js`.
 - **Description**: Create a function `cleanSet` that returns a string of all the set values that start with a specific string. The string contains all the values of the set separated by `-`.
 
+### 9. Map data structure
+- **File**: `9-map.js`.
+- **Description**: Create a function `groceriesList` that returns a Map of groceries with the following items (name, quantity):
+-- Apples, 10
+-- Tomatoes, 10
+-- Pasta, 1
+-- Rice, 1
+-- Bananas, 5
