@@ -147,5 +147,34 @@ npm install
 - **Description**: Create a function named `getListStudents` that returns an array of objects. Each object should have three attributes: `id` (Number), `firstName` (String), and `location` (String).
 
 ### 1. More mapping
-- **File**: `1-get_list_student_ids.js`
+- **File**: `1-get_list_student_ids.js`.
 - **Description**: Create a function `getListStudentIds` that returns an array of ids from a list of objects. If the argument is not an array, the function returns an empty array.
+
+### 2. Filter
+- **File**: `2-get_students_by_loc.js`.
+- **Description**: Create a function `getStudentsByLocation` that returns an array of objects who are located in a specific city. It accepts a list of students and a city as parameters.
+
+### 3. Reduce
+- **File**: `3-get_ids_sum.js`.
+- **Description**: Create a function `getStudentIdsSum` that returns the sum of all the student ids. It accepts a list of students as a parameter.
+
+### 4. Combine
+- **File**: `4-update_grade_by_city.js`.
+- **Description**: Create a function `updateStudentGradeByCity` that returns an array of students for a specific city with their new grade. If a student doesn’t have a grade, the final grade should be `N/A`.
+
+### 5. Typed Arrays
+- **File**: `5-typed_arrays.js`.
+- **Description**: Create a function `createInt8TypedArray` that returns a new ArrayBuffer with an Int8 value at a specific position. If the position is outside range, throw an error Position outside range.
+
+### 6. Set data structure
+- **File**: `6-set.js`.
+- **Description**: Create a function `setFromArray` that returns a Set from an array. It accepts an argument (Array, of any kind of element).
+
+### 7. More set data structure
+- **File**: `7-has_array_values.js`.
+- **Description**: Create a function `hasValuesFromArray` that returns a boolean if all the elements in the array exist within the set.
+
+### 8. Clean set
+- **File**: `8-clean_set.js`.
+- **Description**: Create a function `cleanSet` that returns a string of all the set values that start with a specific string. The string contains all the values of the set separated by `-`.
+
