@@ -186,3 +186,15 @@ npm install
 - - Pasta, 1
 - - Rice, 1
 - - Bananas, 5
+
+### 10. More map data structure
+- **File**: `10-update_uniq_items.js`.
+- **Description**: Create a function `updateUniqueItems` that returns an updated map for all items with initial quantity of 1. Replace the quantity with 100.
+
+### 11. Weak link data structure
+- **File**: `100-weak.js`.
+- **Description**: Write a class `WeakMap` that is weakly referenced. The class should have methods to add, delete, and check existence of keys.
+
+## Author
+- **Mudi Murtala**
+- **GitHub**: https://github.com/mudimurtala
