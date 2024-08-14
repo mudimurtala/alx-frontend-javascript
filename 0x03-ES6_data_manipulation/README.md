@@ -142,5 +142,10 @@ npm install
 ```
 ## Tasks
 ### 0. Basic list of objects
+
 - **File**: `0-get_list_students.js`.
 - **Description**: Create a function named `getListStudents` that returns an array of objects. Each object should have three attributes: `id` (Number), `firstName` (String), and `location` (String).
+
+### 1. More mapping
+- **File**: `1-get_list_student_ids.js`
+- **Description**: Create a function `getListStudentIds` that returns an array of ids from a list of objects. If the argument is not an array, the function returns an empty array.
